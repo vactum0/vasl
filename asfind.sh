@@ -11,7 +11,7 @@
 echo "[ + ] This is automatic net block finder script"
 echo "[ + ] Integrated with net block finder Perl software which requires nmap"
 echo "[ + ] Use this net block step by step with net block finder Perl for more results"
-echo -e "[ + ] Enter IP address to find associated AS Blocks: "
+echo -n "[ + ] Enter IP address to find associated AS Blocks: "
 
 read IP
 whois -h whois.radb.net -i origin -T route $(whois -h whois.radb.net ${IP} | grep origin: | awk '{print $NF}' | head -1) | grep -w "route:" | awk '{print $NF}' | sort -n
