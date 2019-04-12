@@ -11,27 +11,32 @@
 
 import os
 import requests
+import sys
+from scapy.all import *
+import argparse, os, sys, threading
+import logging
+logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
+from time import sleep
 
 cmd = "clear"
 returned_value = os.system(cmd)
 sys.stdout.write("\033[1;31m")
 print "\n\n                                                                Project: VASL"
-print "\n						        	Coder: Haroon Awan\n\n"
+print "						             Coder: Haroon Awan\n\n"
 sys.stdout.write("\033[1;33m")
-print "[ + ] Version: 		Open Source Edition 1.0a\n"
-print "[ + ] Contact: 		mrharoonawan@gmail.com\n"
-print "[ + ] Environment: 	Shell and Python for Debian/Kali\n"
-print "[ + ] Github: 		Https://www.github.com/haroonawanofficial\n"
-print "[ + ] Design Scheme: 	Automatic subdomain finder and canonical records finder\n"
-print "[ + ] Example Usage:    python vasl.py\n\n"
-print "[ + ] In program usage: 1st step: "google.com" then 2nd step: .google.com\n\n"
+print "[ + ] Version: 		Open Source Edition 1.0a"
+print "[ + ] Contact: 		mrharoonawan@gmail.com"
+print "[ + ] Environment: 	Shell and Python for Debian/Kali"
+print "[ + ] Github: 		Https://www.github.com/haroonawanofficial"
+print "[ + ] Design Scheme: 	Automatic subdomain finder and canonical records finder"
+print "[ + ] Example Usage:    python vasl.py"
+print "[ + ] In program usage: Read readme file before using\n\n"
 
 sys.stdout.write("\033[0;32m")
-print "\n[ + ] Contacting target ...\n";
+name = input("[ + ] Enter domain in double quotes formats: ")
+print "[ + ] Please wait, contacting target";
+print "[ + ] Verifying, collecting records and writing data";
 sleep (2);
-print "[ + ] Enter domain in double quotes formats: \n\n"
-
-name = input("")
 url = ("https://api.securitytrails.com/v1/domain/" + name + "/subdomains")
 	
 querystring = {"apikey":"vNSVS6PirkCgrU7LbCIQ73MuFow43xVY"}
