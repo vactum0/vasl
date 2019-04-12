@@ -41,18 +41,18 @@ information or no information at all without wasting time.
 1. Automatic: Clone git in /root/Downloads path, enter: chmod u+x installer.sh, then: ./installer.sh and your done
 1. Manual python vasl.py
 
-# Using
+# How-to use it?
 1. Run VASL
 2. Enter domain in double quotes format like "google.com"
 3. Enter domain again in dot format like: .google.com
 
 # Requirement
-VASL runs on any *Nix system
-VASL needs Python
-VASL needs *Nix-utils
-VASL use Bash scripting
-VASL use Awk scripting
-VASL use Sed scripting
+1. VASL runs on any *Nix system
+2. VASL needs Python
+3. VASL needs *Nix-utils
+4. VASL use Bash scripting
+5. VASL use Awk scripting
+6. VASL use Sed scripting
 
 # Contact
 mrharoonawan@gmail.com
