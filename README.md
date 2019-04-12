@@ -32,7 +32,8 @@ information or no information at all without wasting time.
 5. Output results in seconds.
 
 # Installation
-Clone git in /root/Downloads path, in folder enter: chmod u+x installer.sh, then: ./installer.sh and your done.
+1. Automatic: Clone git in /root/Downloads path, enter: chmod u+x installer.sh, then: ./installer.sh and your done
+1. Manual python vasl.py
 
 # Requirement
 VASL runs on any *Nix system
