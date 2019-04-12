@@ -8,13 +8,17 @@
 # LICENSE
 EULA
 
+Bonus script to find any AS Block from subdomain or master domain and sweep the block for associated cname findings
+<div align="center">
+    <img src="http://oi63.tinypic.com/2qbfwww.jpg" width="400px"</img> 
+</div>
 
-
+AS Block sweeper in action to find any associated cname aliases
 <div align="center">
     <img src="http://oi64.tinypic.com/2a4pyl4.jpg" width="400px"</img> 
 </div>
 
-
+VASL in action
 <div align="center">
     <img src="http://oi66.tinypic.com/2cei43p.jpg" width="400px"</img> 
 </div>
