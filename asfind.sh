@@ -9,7 +9,7 @@
 
 #!/bin/bash
 echo "[ + ] This is automatic net block finder script"
-echo "[ + ] Integrated with net block finder Perl software which requires nmap
+echo "[ + ] Integrated with net block finder Perl software which requires nmap"
 echo "[ + ] Use this net block step by step with net block finder Perl for more results
 echo -e "[ + ] Enter IP address to find associated AS Blocks: "
 
