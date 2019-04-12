@@ -2,7 +2,7 @@
 
 # VASL
 1. Advanced and fully automatic sub domain hack software to find possible take overs
-2. This is a protection software by hacking and revealing full information it can
+2. This is a fully automatic protection software by hacking and revealing full information it can
 
 # LICENSE
 EULA
