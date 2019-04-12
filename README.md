@@ -27,7 +27,8 @@ showing only relevant information for possible take overs.
 
 # How requests are handled?
 1. Web requests are automatically handled by Python modules.
-2. Web requests are automatically handled by Bash, Awk and Sed scripting modules.
+2. Web requests are automatically handled by Perl modules.
+3. Web requests are automatically handled by Bash, Awk and Sed scripting modules.
 
 # Advantages of VASL
 1. VASL is fully automatic, it doesn't want user to wait and output false positive information but it fully provide useful 
@@ -49,10 +50,11 @@ information or no information at all without wasting time.
 # Requirement
 1. VASL runs on any *Nix system
 2. VASL needs Python
-3. VASL needs *Nix-utils
-4. VASL use Bash scripting
-5. VASL use Awk scripting
-6. VASL use Sed scripting
+3. VASL needs Perl
+4. VASL needs *Nix-utils
+5. VASL use Bash scripting
+6. VASL use Awk scripting
+7. VASL use Sed scripting
 
 # Contact
 mrharoonawan@gmail.com
