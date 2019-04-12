@@ -27,7 +27,7 @@ showing only relevant information for possible take overs.
 1. VASL is fully automatic, it doesn't want user to wait and output false positive information but it fully provide useful 
 information or no information at all without wasting time.
 2. It is false negative and false positive free.
-3. It uses fully piplined power scripting combined with power of Perl
+3. It uses fully piplined power scripting combined with power of Python
 4. If information is their and fully relevant for tester, it will show that no matter what.
 5. Output results in seconds.
 
