@@ -35,6 +35,11 @@ information or no information at all without wasting time.
 1. Automatic: Clone git in /root/Downloads path, enter: chmod u+x installer.sh, then: ./installer.sh and your done
 1. Manual python vasl.py
 
+# Using
+1. Run VASL
+2. Enter domain in double quotes format like "google.com"
+3. Enter domain again in dot format like: .google.com
+
 # Requirement
 VASL runs on any *Nix system
 VASL needs Python
