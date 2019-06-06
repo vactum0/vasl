@@ -8,4 +8,4 @@
 #***************************************************************************************#
 
 #!/bin/bash
-dig -f subdomains 2> /dev/null | awk '/CNAME/ {print}'
+dig -f subdomains 2> /dev/null | awk '/CNAME/ {print}' > takeoverlist_subdomains.txt
