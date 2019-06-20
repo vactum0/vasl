@@ -28,7 +28,7 @@ print color('reset');
 print color('bold green');
 $site="$ARGV[0]";
 
-print "[ + ] Enter Net Block : "; 
+print "[ + ] Enter Block : "; 
 chomp(my $ipblock = <STDIN>);
 sleep (2);
 print "[ + ] Sweeping network block using Nmap\n";
