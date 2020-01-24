@@ -17,5 +17,7 @@ chmod u+x /root/Downloads/vasl-master/vasl.py
 chmod u+x /root/Downloads/vasl-master/cleaner.sh
 chmod u+x /usr/bin/vasl
 cd /root/
+pip install requests
+pip install scapy
 echo "Installed!"
 echo "VASL can be called anywhere from system"
